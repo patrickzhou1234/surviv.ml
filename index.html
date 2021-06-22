@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html onmousemove="followturret(event)" onkeydown="move(event)" onclick="shoot()" onkeyup="stopmove(event)">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>surviv</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+<body>
+  <div id="turret"></div>
+  <div id="character"></div>
+  <div id="bullet"></div>
+  <img id="zombie" class="zombnode" src="https://rb.gy/ab6mh4">
+  <p id="outerscore">Score: <span id="score"></span></p>
+  <p id="dead">You Died!</p>
+  <p id="continue">Press Enter To Restart. </p>
+  <div id="shader"></div>
+  <script src="script.js"></script>
+</body>
+</html>
